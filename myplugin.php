@@ -28,3 +28,10 @@ with this program. If not, visit: https://www.gnu.org/licenses/
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+//include if admin
+if(is_admin()){
+	//require_once plugin_dir_path( __FILE__ ).'admin/menu.php';
+}
+//include if public
+//require_once plugin_dir_path( __FILE__ ).'includes/functions.php';
