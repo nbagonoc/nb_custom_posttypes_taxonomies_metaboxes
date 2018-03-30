@@ -33,5 +33,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 if(is_admin()){
 	//require_once plugin_dir_path( __FILE__ ).'admin/menu.php';
 }
-//include if public
-//require_once plugin_dir_path( __FILE__ ).'includes/functions.php';
+// include if public
+require_once plugin_dir_path( __FILE__ ).'includes/functions.php';
