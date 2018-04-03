@@ -1,5 +1,10 @@
 <?php
 
+// exit if file is called directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 function nb_custom_post_types(){
     //testimonials
     $labels = array(
